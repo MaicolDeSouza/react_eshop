@@ -5,6 +5,7 @@ import { useStateValue } from "../../StateProvider";
 
 function Product({id, title, price, rating, image}) {
 
+    // eslint-disable-next-line no-unused-vars
     const [state, dispatch] = useStateValue();
 
     const addToBasket = () => {
